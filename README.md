@@ -1,15 +1,47 @@
-I am a student researcher at Guangdong University of Science and Technology, working on a crypto market intelligence project. My public research repository is: [这里填你刚创建的GitHub仓库地址]
+# Crypto Market Intelligence & Automated Trading Research
 
-I am applying for the Arkham Intel API Pilot Program. My primary goal is to use the API to enhance my project data pipeline, focusing on three key areas:
+This is an independent blockchain technology research repository developed by a student researcher at Guangdong University of Science and Technology. It serves as the public portfolio for two interconnected projects.
 
-1. **Data Usage**: I will use the API primarily to query entity-labelled transaction data.
-   - When my system detects abnormal trading activity in the market, I can use Arkham to identify whether the involved addresses belong to known entities (e.g., exchanges, market makers, VCs), which helps filter out noise and focus on significant market events.
-   - I can track "smart money" movements by monitoring addresses associated with high-performing traders, providing a unique analytical perspective for my content.
+## About The Research
 
-2. **Technical Feasibility**: As shown in my repository, I already have a fully functional data pipeline running on Python 3.10+ with SQLite, integrating Binance, CoinGecko, and sentiment APIs. My system is designed to consume external data sources and feed them into a scoring and content generation engine. Integrating Arkham's REST API would be a natural extension, as I already have a slot for an "on-chain intelligence" module.
+The research focuses on building fully automated, data-driven systems for the cryptocurrency market, covering both market intelligence/content generation and algorithmic trading strategy backtesting.
 
-3. **Expected Outcome**: The integration will allow me to go beyond surface-level news reporting and deliver on-chain data-driven market insights to the crypto community. I aim to document the integration process and share my experience with the developer community, which would also serve as a real-world case study for the Arkham API pilot.
+---
 
-My GitHub repository demonstrates a sustained commitment to blockchain development, including this content intelligence project and a quantitative trading strategy engine.
+## Project 1: Crypto KOL Content Engine
 
-Thank you for considering my application.
+An end-to-end automated pipeline that transforms real-time market data into structured, human-readable content.
+
+### Key Capabilities
+- Multi-Source Data Ingestion: Real-time data from Arkham, Binance, CoinGecko, Alternative.me, and RSS feeds.
+- Intelligent Signal Scoring: A custom algorithm scores and filters incoming data to find the most actionable market signals.
+- AI-Powered Content Generation: Uses a Large Language Model with engineered prompts to convert analysis results into unique market insights.
+- Automated Publishing Pipeline: Content is generated and pushed to notification channels (DingTalk) automatically.
+
+### Tech Stack
+Python 3.10+, DeepSeek Chat API, Binance Public API, CoinGecko API, Alternative.me API, SQLite, DingTalk Webhook, Alibaba Cloud ECS.
+
+---
+
+## Project 2: Automated Quantitative Trading Strategy Engine
+
+A sophisticated backtesting and live trading framework developed to research the efficacy of multi-signal confluence trading strategies.
+
+### Key Capabilities
+- Market Signal Discovery: Integrates technical analysis with on-chain data and exchange data.
+- "Trinity Confluence" Strategy: A proprietary rules-based engine that generates trading signals based on the alignment of market environment, technical structure, and price position.
+- Risk Management Core: Features an invalidation detection module that monitors for shifts in market structure or whale activity.
+
+### Tech Stack
+Python 3.11, pandas, numpy, Binance Testnet API, Coinalyze API, BAIDU OCR API, GitHub Actions.
+
+---
+
+## Current Status
+
+Currently focusing on integrating the Arkham Intel API into the content engine (Project 1) to enhance its on-chain data analysis capabilities.
+
+## Contact
+
+- Telegram: @JuliusCae5ar
+- GitHub: [Ju-YangXZ](https://github.com/Ju-YangXZ)
